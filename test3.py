@@ -4,7 +4,7 @@ from docx.shared import Pt
 from docx.enum.style import WD_STYLE_TYPE
 
 # Set up OpenAI API key
-api_key = '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'
+api_key = ''
 client = OpenAI(api_key=api_key)
 
 def generate_sow_content(project_requirements):
